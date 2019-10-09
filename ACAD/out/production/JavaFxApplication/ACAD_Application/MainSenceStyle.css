@@ -1,0 +1,100 @@
+#Window
+{
+    -fx-background-color: #535353;
+}
+
+#pn_Toolbox
+{
+    -fx-background-color: #535353;
+}
+
+#pn_Propeties
+{
+    -fx-background-color: #535353;
+}
+
+#pn_Cmd
+{
+    -fx-background-color: #535353;
+}
+
+#bnt_Line
+{
+    -fx-background-image: url('/ACAD_Application/Image/Line.png');
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Polygon
+{
+    -fx-background-image: url('/ACAD_Application/Image/Polygon.png');
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Triage
+{
+    -fx-background-image: url('/ACAD_Application/Image/Triage.png');
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Rectangle
+{
+    -fx-background-image: url('/ACAD_Application/Image/Rectangle.png');
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Circle
+{
+    -fx-background-image: url('/ACAD_Application/Image/Circle.png');
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Eclipse
+{
+    -fx-background-image: url('/ACAD_Application/Image/Eclipse.png');
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_TextTool
+{
+    -fx-background-image: url('/ACAD_Application/Image/TypeTool.png');
+    -fx-background-size: 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Pen
+{
+    -fx-background-image: url('/ACAD_Application/Image/PenTool.png');
+    -fx-background-size: 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#pn_Workspace
+{
+
+}
+
+#CanvasHolder
+{
+    -fx-background-color: black;
+}
+
+#ColorPicker
+{
+    -fx-color-label-visible: false;
+    -fx-color-rect-width: 40px;
+    -fx-color-rect-height: 40px;
+}
