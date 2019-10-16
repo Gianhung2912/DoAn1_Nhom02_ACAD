@@ -1,4 +1,4 @@
 package ACAD_Application.Models;
 
-public class Triage {
+public class Polyline {
 }

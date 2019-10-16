@@ -1,5 +1,7 @@
 package ACAD_Application;
 
+import ACAD_Application.Models.Circle;
+import ACAD_Application.Models.Ellipse;
 import ACAD_Application.Models.Line;
 import ACAD_Application.Models.Rectangle;
 import ACAD_Application.Models.Topology.Shape;
@@ -45,7 +47,7 @@ public class MainSence implements Initializable
     {
         CurrentShape = Shape.ShapeType.Line;
     }
-
+    public void bnt_Ellipse_Click(ActionEvent actionEvent) {CurrentShape=Shape.ShapeType.Ellipse;}
 
     public void MainCanvas_MouseDown(MouseEvent mouseEvent)
     {
@@ -91,6 +93,10 @@ public class MainSence implements Initializable
             case Rectangle:
                 temp = new Rectangle(start,end,color);
                 break;
+            case Ellipse:
+                temp=new Ellipse(start,end,color);
+            case Circle:
+                temp=new Circle(start,end,color);
         }
         return temp;
     }
@@ -117,4 +123,5 @@ public class MainSence implements Initializable
     {
         CurrentShape = Shape.ShapeType.Rectangle;
     }
+    public void bnt_Circle_Click (ActionEvent actionEvent){ CurrentShape=Shape.ShapeType.Circle;}
 }

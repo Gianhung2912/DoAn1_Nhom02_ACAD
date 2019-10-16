@@ -13,11 +13,13 @@ public abstract class Shape implements iShape, java.lang.Cloneable
     {
         Null,
         Line,
-        Esclipse,
+        Ellipse,
         Rectangle,
-        Triage,
+        Triange,
         Circle,
-        Polygon
+        Polygon,
+        Arc,
+        Polyline
     }
 
     private Point2D startPosition;
@@ -126,5 +128,6 @@ public abstract class Shape implements iShape, java.lang.Cloneable
         color = null;
         fillColor = null;
     }
+
 }
 

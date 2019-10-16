@@ -194,7 +194,14 @@
       <workItem from="1570545124672" duration="1604000" />
       <workItem from="1570547149989" duration="3243000" />
       <workItem from="1570586500482" duration="10807000" />
-      <workItem from="1570603972747" duration="2560000" />
+      <workItem from="1570603972747" duration="3169000" />
+      <workItem from="1570695310522" duration="1292000" />
+      <workItem from="1570721577026" duration="1015000" />
+      <workItem from="1570862544075" duration="983000" />
+      <workItem from="1571156974496" duration="3084000" />
+      <workItem from="1571189623834" duration="2722000" />
+      <workItem from="1571210491237" duration="7224000" />
+      <workItem from="1571236763796" duration="617000" />
     </task>
     <servers />
   </component>
@@ -206,7 +213,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -215,16 +224,5 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ACAD_Application/MainSence.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
