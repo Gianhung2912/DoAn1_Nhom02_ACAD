@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
 
-<AnchorPane id="Window" prefHeight="720.0" prefWidth="1280.0" stylesheets="/ACAD_Application/MainSenceStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ACAD_Application.MainSence">
+<AnchorPane fx:id="Window" prefHeight="720.0" prefWidth="1280.0" stylesheets="/ACAD_Application/MainSenceStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ACAD_Application.MainSence">
   <children>
     <MenuBar layoutX="0.0" layoutY="1.0" prefWidth="1280.0">
       <menus>
@@ -20,7 +20,7 @@
             <MenuItem mnemonicParsing="false" text="Open" />
           </items>
         </Menu>
-        <Menu mnemonicParsing="false" text="Edit">
+        <Menu mnemonicParsing="false" text="Edit" >
 
         </Menu>
         <Menu mnemonicParsing="false" text="Help">
@@ -32,17 +32,17 @@
     </MenuBar>
     <Pane id="pn_Toolbox" layoutX="0.0" layoutY="25.0" prefHeight="654.0" prefWidth="80.0">
       <children>
-        <Button id="bnt_Rectangle" layoutX="17.0" layoutY="62.0" mnemonicParsing="false" onAction="#bnt_Rectagle_Click" prefHeight="50.0" prefWidth="50.0" text="" />
-        <Button id="bnt_Circle" layoutX="17.0" layoutY="119.0" mnemonicParsing="false" onAction="#bnt_Circle_Click" prefHeight="50.0" prefWidth="50.0" text="" />
-        <Button id="bnt_Eclipse" layoutX="17.0" layoutY="176.0" mnemonicParsing="false" onAction="#bnt_Ellipse_Click" prefHeight="50.0" prefWidth="50.0" text="" />
-        <Button id="bnt_Polygon" layoutX="17.0" layoutY="290.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="" />
-        <Button id="bnt_TextTool" layoutX="17.0" layoutY="346.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="" />
-        <Button id="bnt_Triage" layoutX="17.0" layoutY="403.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="" />
-        <Button id="bnt_Pen" layoutX="17.0" layoutY="6.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="" />
-        <Button id="bnt_Line" layoutX="17.0" layoutY="233.0" mnemonicParsing="false" onAction="#bnt_Line_Click" prefHeight="50.0" prefWidth="50.0" text="" />
+        <Button id="bnt_Rectangle" layoutX="17.0" layoutY="62.0" mnemonicParsing="false" onAction="#bnt_Rectagle_Click" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Circle" layoutX="17.0" layoutY="119.0" mnemonicParsing="false" onAction="#bnt_Circle_Click" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Eclipse" layoutX="17.0" layoutY="176.0" mnemonicParsing="false" onAction="#bnt_Ellipse_Click" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Polygon" layoutX="17.0" layoutY="290.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_TextTool" layoutX="17.0" layoutY="346.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Triangle" layoutX="17.0" layoutY="403.0" mnemonicParsing="false" onAction="#bnt_Triangle" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Pen" layoutX="17.0" layoutY="6.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Line" layoutX="17.0" layoutY="233.0" mnemonicParsing="false" onAction="#bnt_Line_Click" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Arc" layoutX="17.0" layoutY="459.0" mnemonicParsing="false" onAction="#bnt_Arc_Click" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Polyline" layoutX="17.0" layoutY="516.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
         <ColorPicker fx:id="ColorPicker" layoutX="15.0" layoutY="573.0" prefHeight="50.0" prefWidth="53.0" />
-            <Button id="bnt_Arc" layoutX="17.0" layoutY="459.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="" />
-            <Button id="bnt_Polyline" layoutX="17.0" layoutY="516.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="" />
       </children>
     </Pane>
     <Pane id="pn_Cmd" layoutX="276.0" layoutY="679.0" prefHeight="40.0" prefWidth="729.0">

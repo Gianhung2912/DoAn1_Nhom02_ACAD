@@ -34,7 +34,7 @@
     -fx-background-position: center;
 }
 
-#bnt_Triage
+#bnt_Triangle
 {
     -fx-background-image: url('/ACAD_Application/Image/Triage.png');
     -fx-background-size: 50px;
@@ -78,6 +78,22 @@
 {
     -fx-background-image: url('/ACAD_Application/Image/PenTool.png');
     -fx-background-size: 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Arc
+{
+    -fx-background-image: url('/ACAD_Application/Image/CicularArc.png');
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#bnt_Polyline
+{
+    -fx-background-image: url('/ACAD_Application/Image/PolyLine.png');
+    -fx-background-size: 50px;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }

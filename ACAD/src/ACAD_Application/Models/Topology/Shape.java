@@ -22,11 +22,11 @@ public abstract class Shape implements iShape, java.lang.Cloneable
         Polyline
     }
 
-    private Point2D startPosition;
-    private Point2D endPosition;
-    private Point2D topLeft;
-    private Color color;
-    private Color fillColor;
+    protected Point2D startPosition;
+    protected Point2D endPosition;
+    protected Point2D topLeft;
+    protected Color color;
+    protected Color fillColor;
 
     public Shape(){
         //Variables will be set by the Properties map.
@@ -56,6 +56,11 @@ public abstract class Shape implements iShape, java.lang.Cloneable
     public void setEndPosition(Point2D position)
     {
         this.endPosition = position;
+    }
+
+    public void getArcExtent(String input)
+    {
+
     }
 
     @Override
