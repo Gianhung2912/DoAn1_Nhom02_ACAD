@@ -11,8 +11,14 @@ public class Rectangle extends Shape
     private double width;
     private double height;
 
-    public Rectangle() {
+    public Rectangle()
+    {
 
+    }
+
+    public Rectangle(Point2D point)
+    {
+        setPosition(point);
     }
 
     public void setWidth(double width) {
@@ -31,14 +37,6 @@ public class Rectangle extends Shape
         return height;
     }
 
-    public Rectangle(Point2D startPos, Point2D endPos, Color strockColor)
-    {
-        super(startPos, endPos, strockColor);
-        width = Math.abs(startPos.getX() - endPos.getX());
-        height = Math.abs(startPos.getY() - endPos.getY());
-    }
-
-
     @Override
     public void draw(Canvas canvas)
     {
@@ -47,7 +45,7 @@ public class Rectangle extends Shape
         width = Math.abs(getPosition().getX() - getEndPosition().getX());
         height = Math.abs(getPosition().getY() - getEndPosition().getY());
         gc.strokeRect(super.getTopLeft().getX(), super.getTopLeft().getY(), width, height);
-        gc.setFill(super.getFillColor());
-        gc.fillRect(super.getTopLeft().getX(), super.getTopLeft().getY(), width, height);
+        //gc.setFill(super.getFillColor());
+        //gc.fillRect(super.getTopLeft().getX(), super.getTopLeft().getY(), width, height);
     }
 }

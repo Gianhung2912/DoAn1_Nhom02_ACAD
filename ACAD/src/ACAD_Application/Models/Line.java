@@ -16,6 +16,11 @@ public class Line extends Shape
         length = start.distance(end);
     }
 
+    public Line(Point2D start)
+    {
+        setPosition(start);
+    }
+
     public Line()
     {
 

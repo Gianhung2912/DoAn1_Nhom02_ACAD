@@ -27,6 +27,7 @@ public abstract class Shape implements iShape, java.lang.Cloneable
     protected Point2D topLeft;
     protected Color color;
     protected Color fillColor;
+    public int radius;
 
     public Shape(){
         //Variables will be set by the Properties map.
@@ -59,6 +60,11 @@ public abstract class Shape implements iShape, java.lang.Cloneable
     }
 
     public void getArcExtent(String input)
+    {
+
+    }
+
+    public void AddPoint(Canvas maincanvas, Point2D point)
     {
 
     }
@@ -98,8 +104,6 @@ public abstract class Shape implements iShape, java.lang.Cloneable
 
     }
 
-
-
     @Override
     public Shape clone() throws CloneNotSupportedException{
         return cloneShape();
@@ -118,6 +122,7 @@ public abstract class Shape implements iShape, java.lang.Cloneable
     }
 
     public Point2D getTopLeft(){
+        this.topLeft = calculateTopLeft();
         return topLeft;
     }
 

@@ -16,8 +16,8 @@
         <Menu mnemonicParsing="false" text="File">
           <items>
             <MenuItem mnemonicParsing="false" text="New" />
-            <MenuItem mnemonicParsing="false" text="Save" />
-            <MenuItem mnemonicParsing="false" text="Open" />
+            <MenuItem mnemonicParsing="false" text="Save" onAction="#MenuSave_Click"/>
+            <MenuItem mnemonicParsing="false" text="Open" onAction="#MenuOpen_Click" />
           </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Edit" >
@@ -41,14 +41,14 @@
         <Button id="bnt_Pen" layoutX="17.0" layoutY="6.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
         <Button id="bnt_Line" layoutX="17.0" layoutY="233.0" mnemonicParsing="false" onAction="#bnt_Line_Click" prefHeight="50.0" prefWidth="50.0" />
         <Button id="bnt_Arc" layoutX="17.0" layoutY="459.0" mnemonicParsing="false" onAction="#bnt_Arc_Click" prefHeight="50.0" prefWidth="50.0" />
-        <Button id="bnt_Polyline" layoutX="17.0" layoutY="516.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+        <Button id="bnt_Polyline" layoutX="17.0" layoutY="516.0" mnemonicParsing="false" onAction="#bnt_Polyline_Click" prefHeight="50.0" prefWidth="50.0" />
         <ColorPicker fx:id="ColorPicker" layoutX="15.0" layoutY="573.0" prefHeight="50.0" prefWidth="53.0" />
       </children>
     </Pane>
     <Pane id="pn_Cmd" layoutX="276.0" layoutY="679.0" prefHeight="40.0" prefWidth="729.0">
       <children>
-        <TextField layoutX="27.0" layoutY="4.0" prefHeight="32.0" prefWidth="524.0" />
-        <Button id="bnt_cmdExec" layoutX="560.0" layoutY="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" text="Execute" />
+        <TextField fx:id="txt_Cmd" layoutX="27.0" layoutY="4.0" prefHeight="32.0" prefWidth="524.0" />
+        <Button id="bnt_cmdExec" layoutX="560.0" layoutY="5.0" mnemonicParsing="false" onAction="#bnt_CmdExec_Click" prefHeight="30.0" prefWidth="90.0" text="Execute" />
       </children>
     </Pane>
     <Pane id="pn_Propeties" layoutX="1080.0" layoutY="25.0" prefHeight="626.0" prefWidth="200.0" />
